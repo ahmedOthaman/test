@@ -1,0 +1,21 @@
+
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget{
+  @override
+ build(BuildContext, context) {
+   return Scaffold(
+     appBar,  AppBar(
+       backgroundColor, Colors.cyan,
+       leading, Icon(Icons.menu),
+       centerTitle, true,
+       title, Text('frist App'),
+
+     ),
+     body, Column(
+      
+     ),
+   );
+  }
+
+}
